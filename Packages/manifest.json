@@ -2,7 +2,7 @@
   "dependencies": {
     "com.grashaar.unity-core-addressables": "https://grashaar@github.com/grashaar/UnityCore.Addressables.git#0.0.4",
     "com.minhdu.uiman": "https://grashaar@github.com/grashaar/UIMan.git#0.0.7",
-    "com.unity.addressables": "1.3.8",
+    "com.unity.addressables": "1.4.0",
     "com.unity.package-manager-ui": "2.1.2",
     "com.unity.textmeshpro": "2.0.1",
     "com.unity.timeline": "1.0.0",
