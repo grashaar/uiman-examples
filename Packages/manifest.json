@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.grashaar.unity-core-addressables": "https://grashaar@github.com/grashaar/UnityCore.Addressables.git#0.0.4",
+    "com.grashaar.unity-core-addressables": "https://grashaar@github.com/grashaar/UnityCore.Addressables.git#0.0.5",
     "com.minhdu.uiman": "https://grashaar@github.com/grashaar/UIMan.git#0.0.7",
     "com.unity.addressables": "1.4.0",
     "com.unity.package-manager-ui": "2.1.2",
@@ -39,11 +39,11 @@
   },
   "lock": {
     "com.grashaar.unity-core-addressables": {
-      "hash": "603946bc7eace12b512ed3f58ede6303ef129e68",
-      "revision": "0.0.4"
+      "hash": "b172bf44583503ca6b67b83a5278a5fcdbfbf4d3",
+      "revision": "0.0.5"
     },
     "com.minhdu.uiman": {
-      "hash": "311639345fe93db69e671ae1d5ed923c322f4102",
+      "hash": "cc3c1ef5886b7a36beda244d751d6e63801ef235",
       "revision": "0.0.7"
     }
   }

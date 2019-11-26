@@ -14,21 +14,27 @@ public class StartGame : MonoBehaviour
         UIManAssetLoader.SetLoadMethodSprite(LoadSprite);
         UIManAssetLoader.SetLoadMethodTexture2D(LoadTexture2D);
 
+        AddressableManager.Initialize(DoStartGame);
+    }
+
+    private void DoStartGame()
+    {
+        Debug.Log("START");
         UIMan.Instance.ShowScreen<UIMainMenu>();
     }
 
     private static IEnumerator LoadGameObject(string key, Action<string, UnityObject> callback)
     {
-        yield return AddressableManager.Load<GameObject>(key, callback);
+        yield return AddressableManager.LoadAssetCoroutine<GameObject>(key, callback);
     }
 
     private static IEnumerator LoadSprite(string key, Action<string, UnityObject> callback)
     {
-        yield return AddressableManager.Load<Sprite>(key, callback);
+        yield return AddressableManager.LoadAssetCoroutine<Sprite>(key, callback);
     }
 
     private static IEnumerator LoadTexture2D(string key, Action<string, UnityObject> callback)
     {
-        yield return AddressableManager.Load<Texture2D>(key, callback);
+        yield return AddressableManager.LoadAssetCoroutine<Texture2D>(key, callback);
     }
 }
