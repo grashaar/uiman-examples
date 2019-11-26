@@ -10,9 +10,9 @@ public class StartGame : MonoBehaviour
 {
     private void Start()
     {
-        UIManAssetLoader.RegisterLoadMethodGameObject(LoadGameObject);
-        UIManAssetLoader.RegisterLoadMethodSprite(LoadSprite);
-        UIManAssetLoader.RegisterLoadMethodTexture2D(LoadTexture2D);
+        UIManAssetLoader.SetLoadMethodGameObject(LoadGameObject);
+        UIManAssetLoader.SetLoadMethodSprite(LoadSprite);
+        UIManAssetLoader.SetLoadMethodTexture2D(LoadTexture2D);
 
         UIMan.Instance.ShowScreen<UIMainMenu>();
     }
