@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UIMan Screens
+  m_EditorClassIdentifier: 
+  m_GroupName: UIMan Screens
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 64c289a007a165e46967565f0d43f86f
+  m_SerializeEntries:
+  - m_GUID: 19a9369ef52d4424c81cbd1d9a964efc
+    m_Address: UIMainMenu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4224e274b47d0cc458a614548ac3e7c7
+    m_Address: UIGameplay
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7f66975befda78f40b949f1a800f7ab3
+    m_Address: UIMissionList
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 137b207d05dd6fc44b3c1407b93caa37, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1c0d0a5751a48bc478e45c554c146e75, type: 2}
+    - {fileID: 11400000, guid: c27a2565026f5ab4d8c104ab5ead34ad, type: 2}

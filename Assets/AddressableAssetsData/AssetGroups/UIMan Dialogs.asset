@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UIMan Dialogs
+  m_EditorClassIdentifier: 
+  m_GroupName: UIMan Dialogs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8f667d222e665da4a80355ac76aed129
+  m_SerializeEntries:
+  - m_GUID: 3674909f97519b04b96f35151c2ce97b
+    m_Address: UIRanking
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a14a8cceb29796442a12f4df75c48d17
+    m_Address: UIMissionComplete
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 137b207d05dd6fc44b3c1407b93caa37, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3e0d96ad07cb44645b89f29c07bae1a9, type: 2}
+    - {fileID: 11400000, guid: 27bec03fc0e82c14f87b5073fb31dd87, type: 2}
