@@ -1,11 +1,13 @@
 {
   "dependencies": {
-    "com.grashaar.unity-core-addressables": "https://grashaar@github.com/grashaar/UnityCore.Addressables.git#0.0.5",
-    "com.minhdu.uiman": "https://grashaar@github.com/grashaar/UIMan.git#0.0.7",
-    "com.unity.addressables": "1.4.0",
+    "com.cysharp.unitask": "https://grashaar@github.com/grashaar/UniTask.git#0.0.1",
+    "com.grashaar.unity-core": "https://grashaar@github.com/grashaar/UnityCore.git#0.0.3",
+    "com.grashaar.unity-core-addressables": "https://grashaar@github.com/grashaar/UnityCore.Addressables.git#0.0.6",
+    "com.grashaar.unity-core-editor": "https://grashaar@github.com/grashaar/UnityCore.Editor.git#0.0.2",
+    "com.minhdu.uiman": "https://grashaar@github.com/grashaar/UIMan.git#0.0.1",
+    "com.unity.addressables": "1.5.1",
     "com.unity.package-manager-ui": "2.1.2",
     "com.unity.textmeshpro": "2.0.1",
-    "com.unity.timeline": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.assetbundle": "1.0.0",
@@ -38,13 +40,25 @@
     "com.unity.modules.xr": "1.0.0"
   },
   "lock": {
+    "com.cysharp.unitask": {
+      "hash": "c7fc944d6e5c91f423dc05edb7a1e27e8d13198c",
+      "revision": "0.0.1"
+    },
+    "com.grashaar.unity-core": {
+      "hash": "c4a140affaf387fcf1911b263be9f0eba7c30f49",
+      "revision": "0.0.3"
+    },
     "com.grashaar.unity-core-addressables": {
-      "hash": "b172bf44583503ca6b67b83a5278a5fcdbfbf4d3",
-      "revision": "0.0.5"
+      "hash": "75e1d42d98a6d559cfeb2a880f15f55ef217ef14",
+      "revision": "0.0.6"
+    },
+    "com.grashaar.unity-core-editor": {
+      "hash": "4e3bb75149a6df63a3d9c63c75fd3f2b05ac4d91",
+      "revision": "0.0.2"
     },
     "com.minhdu.uiman": {
-      "hash": "cc3c1ef5886b7a36beda244d751d6e63801ef235",
-      "revision": "0.0.7"
+      "hash": "6a4bd8ce75d86a0999b81d8fafc435ef079bac07",
+      "revision": "0.0.1"
     }
   }
 }

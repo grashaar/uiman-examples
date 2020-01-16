@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 010af554679ddb14ca8f5288595dcdde, type: 3}
   m_Name: UIManConfig
   m_EditorClassIdentifier: 
-  classNamespace: 
+  classNamespace: UnuGames.Examples.UI
   dialogPrefabFolder: UIMan/Addressables/Dialogs/
   screenPrefabFolder: UIMan/Addressables/Screens/
   backgroundRootFolder: UIMan/Addressables/Backgrounds/
