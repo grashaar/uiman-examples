@@ -32,7 +32,7 @@ namespace UnuGames.Examples.UI
             UIMan.Instance.Loading(OnShowLoading);
         }
 
-        private void OnShowLoading(UIActivity loading)
+        private void OnShowLoading(UIActivityIndicator loading)
         {
             if (loading)
                 loading.Show(FakeLoadRanking(), true, true, false, true, "Fetching data from server... please wait!");
