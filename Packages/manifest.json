@@ -4,7 +4,7 @@
     "com.grashaar.unity-core": "https://grashaar@github.com/grashaar/UnityCore.git#0.0.3",
     "com.grashaar.unity-core-addressables": "https://grashaar@github.com/grashaar/UnityCore.Addressables.git#0.0.6",
     "com.grashaar.unity-core-editor": "https://grashaar@github.com/grashaar/UnityCore.Editor.git#0.0.2",
-    "com.minhdu.uiman": "https://grashaar@github.com/grashaar/UIMan.git#0.0.1",
+    "com.minhdu.uiman": "https://grashaar@github.com/grashaar/UIMan.git#0.0.2",
     "com.unity.addressables": "1.5.1",
     "com.unity.package-manager-ui": "2.1.2",
     "com.unity.modules.ai": "1.0.0",
@@ -56,8 +56,8 @@
       "revision": "0.0.2"
     },
     "com.minhdu.uiman": {
-      "hash": "6a4bd8ce75d86a0999b81d8fafc435ef079bac07",
-      "revision": "0.0.1"
+      "hash": "1556b8051dc3e07bf14a11d5a899c4d2c4db104c",
+      "revision": "0.0.2"
     }
   }
 }
