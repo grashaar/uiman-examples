@@ -4,7 +4,7 @@ using UnuGames;
 
 namespace UnuGames.Examples.UI
 {
-    public partial class UIMainMenu : UIManScreen
+    public sealed partial class UIMainMenu : UIManScreen
     {
         private bool m_soundOff = false;
 

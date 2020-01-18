@@ -4,7 +4,7 @@ namespace UnuGames.Examples.UI
 {
     using Models;
 
-    public sealed partial class UIRanking : UIManDialog
+    public partial class UIRanking : UIManDialog
     {
         [UIManProperty]
         public ObservableList<UserModel> Users { get; }

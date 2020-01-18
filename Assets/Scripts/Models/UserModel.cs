@@ -5,7 +5,7 @@ using UnuGames.MVVM;
 
 namespace UnuGames.Examples.Models
 {
-    public partial class UserModel : ObservableModel
+    public sealed partial class UserModel : ObservableModel
     {
         private string m_avatar = "";
 

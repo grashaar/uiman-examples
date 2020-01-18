@@ -4,7 +4,7 @@ using UnuGames;
 
 namespace UnuGames.Examples.UI
 {
-    public partial class UIMissionList : UIManScreen
+    public sealed partial class UIMissionList : UIManScreen
     {
     }
 }

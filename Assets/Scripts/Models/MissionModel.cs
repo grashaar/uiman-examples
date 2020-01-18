@@ -4,7 +4,7 @@ using UnuGames.MVVM;
 namespace UnuGames.Examples.Models
 {
     [System.Serializable]
-    public partial class MissionModel : ObservableModel
+    public sealed partial class MissionModel : ObservableModel
     {
         private int m_level;
 

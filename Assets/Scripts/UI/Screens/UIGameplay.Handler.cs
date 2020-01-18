@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace UnuGames.Examples.UI
 {
-    public sealed partial class UIGameplay : UIManScreen
+    public partial class UIGameplay : UIManScreen
     {
         [SerializeField]
         private HeaderModule header = null;

@@ -5,7 +5,7 @@ namespace UnuGames.Examples.UI
 {
     using Models;
 
-    public sealed partial class UIMissionList : UIManScreen
+    public partial class UIMissionList : UIManScreen
     {
         [UIManProperty]
         public ObservableList<MissionModel> Missions { get; }

@@ -5,7 +5,7 @@ using UnuGames.MVVM;
 
 namespace UnuGames.Examples.Models
 {
-    public partial class PlayerModel : ObservableModel
+    public sealed partial class PlayerModel : ObservableModel
     {
         private int m_gold = 0;
 
