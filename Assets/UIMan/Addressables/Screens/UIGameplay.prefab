@@ -1163,7 +1163,7 @@ GameObject:
   - component: {fileID: 11493774}
   - component: {fileID: 11481728}
   - component: {fileID: 11454178}
-  - component: {fileID: 11431094}
+  - component: {fileID: 997326464963832248}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1277,7 +1277,7 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 2, y: -1}
   m_UseGraphicAlpha: 1
---- !u!114 &11431094
+--- !u!114 &997326464963832248
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataContext: {fileID: 11455218}
   valueField:
-    label: Text
+    label: Number
     member: Gold
     isNullable: 0
   format: '{0:0}'
