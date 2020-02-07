@@ -2,7 +2,7 @@
   "dependencies": {
     "com.cysharp.unitask": "https://grashaar@github.com/grashaar/UniTask.git#0.0.1",
     "com.grashaar.unity-core": "https://grashaar@github.com/grashaar/UnityCore.git#0.0.3",
-    "com.grashaar.unity-core-addressables": "https://grashaar@github.com/grashaar/UnityCore.Addressables.git#0.0.6",
+    "com.grashaar.unity-core-addressables": "https://grashaar@github.com/grashaar/UnityCore.Addressables.git#0.0.1",
     "com.grashaar.unity-core-editor": "https://grashaar@github.com/grashaar/UnityCore.Editor.git#0.0.2",
     "com.minhdu.uiman": "https://grashaar@github.com/grashaar/uiman.git#0.0.2",
     "com.unity.addressables": "1.5.1",
@@ -48,8 +48,8 @@
       "revision": "0.0.3"
     },
     "com.grashaar.unity-core-addressables": {
-      "hash": "75e1d42d98a6d559cfeb2a880f15f55ef217ef14",
-      "revision": "0.0.6"
+      "hash": "197c431a00a951b74dcd19d071e7adfb38170b51",
+      "revision": "0.0.1"
     },
     "com.grashaar.unity-core-editor": {
       "hash": "4e3bb75149a6df63a3d9c63c75fd3f2b05ac4d91",
