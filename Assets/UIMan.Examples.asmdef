@@ -1,8 +1,10 @@
 {
     "name": "UIMan.Examples",
     "references": [
-        "UIMan",
-        "UnityCore.Addressables"
+        "Unity.ResourceManager",
+        "Unity.Addressables",
+        "UnityCore.Addressables",
+        "UIMan"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
