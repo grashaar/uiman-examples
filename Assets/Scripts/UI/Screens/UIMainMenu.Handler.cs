@@ -29,18 +29,22 @@ namespace UnuGames.Examples.UI
 
         public void Ranking()
         {
-            UIMan.Instance.Loading(OnShowLoading);
+            UIMan.Instance.GetActivity<UILoadingActivity>(OnShowLoading);
         }
 
-        private void OnShowLoading(UIActivityIndicator loading)
+        private void OnShowLoading(UILoadingActivity loading)
         {
-            if (loading)
-                loading.Show(FakeLoadRanking(), true, true, false, true, "Fetching data from server... please wait!");
+            if (!loading)
+                return;
+
+            loading.SetTip("Fectching data from server... please wait!");
+            loading.Show(FakeLoadRanking());
         }
 
         private IEnumerator FakeLoadRanking()
         {
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(3f);
+
             UIMan.Instance.ShowDialog<UIRanking>(999);
         }
     }

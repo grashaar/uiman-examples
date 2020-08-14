@@ -17,14 +17,24 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 8f667d222e665da4a80355ac76aed129
   m_SerializeEntries:
+  - m_GUID: 05b053d8cbea28f44bccce443876e282
+    m_Address: UIPopupDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 3674909f97519b04b96f35151c2ce97b
     m_Address: UIRanking
     m_ReadOnly: 0
     m_SerializedLabels: []
+    m_MainAsset: {fileID: 145880, guid: 3674909f97519b04b96f35151c2ce97b, type: 3}
+    m_TargetAsset: {fileID: 145880, guid: 3674909f97519b04b96f35151c2ce97b, type: 3}
   - m_GUID: a14a8cceb29796442a12f4df75c48d17
     m_Address: UIMissionComplete
     m_ReadOnly: 0
     m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 137b207d05dd6fc44b3c1407b93caa37, type: 2}
   m_SchemaSet:

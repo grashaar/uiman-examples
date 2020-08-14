@@ -55,6 +55,7 @@ namespace UnuGames.Examples.UI
             }
 
             this.CircleProgress = this.circleTimer / 10;
+            this.Progress = 1f - this.CircleProgress;
             this.timer += Time.deltaTime;
 
             if (this.timer > 10)
@@ -71,6 +72,7 @@ namespace UnuGames.Examples.UI
         public void Replay()
         {
             StopCoroutine(SimulateSlider());
+
             this.Progress = 0;
             this.CircleProgress = 0;
 

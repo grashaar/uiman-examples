@@ -4,7 +4,7 @@ using UnuGames;
 
 namespace UnuGames.Examples.UI
 {
-    public sealed partial class UIRanking : UIManDialog
+    public sealed partial class UIRanking
     {
     }
 }

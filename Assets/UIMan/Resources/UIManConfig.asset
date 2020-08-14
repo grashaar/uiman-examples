@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: UIManConfig
   m_EditorClassIdentifier: 
   classNamespace: UnuGames.Examples.UI
-  dialogPrefabFolder: UIMan/Addressables/Dialogs/
   screenPrefabFolder: UIMan/Addressables/Screens/
+  dialogPrefabFolder: UIMan/Addressables/Dialogs/
+  activityPrefabFolder: UIMan/Addressables/Activities/
   backgroundRootFolder: UIMan/Addressables/Backgrounds/
   animRootFolder: UIMan/Animations/
   modelScriptFolder: /UIMan/Examples/Scripts
-  dialogScriptFolder: /UIMan/Examples/Scripts
   screenScriptFolder: /UIMan/Examples/Scripts
+  dialogScriptFolder: /UIMan/Examples/Scripts
+  activityScriptFolder: /Scripts/UI/Activities
   selectedType: UIRanking
   generatingType: 
-  generatingTypeIsDialog: 0
+  generatingBaseType: 

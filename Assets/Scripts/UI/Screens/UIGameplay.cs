@@ -4,7 +4,7 @@ using UnuGames;
 
 namespace UnuGames.Examples.UI
 {
-    public sealed partial class UIGameplay : UIManScreen
+    public sealed partial class UIGameplay
     {
         private float m_circleProgress = 0;
 

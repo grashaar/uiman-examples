@@ -10,25 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: UIMan Area51
+  m_Name: UIMan Activities
   m_EditorClassIdentifier: 
-  m_GroupName: UIMan Area51
+  m_GroupName: UIMan Activities
   m_Data:
     m_SerializedData: []
   m_GUID: 3561b2b582a36ca41881b90b9eff69ef
   m_SerializeEntries:
-  - m_GUID: 3a893f1b39f144149b51c510fcb4fbfc
-    m_Address: UIPopupDialog
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   - m_GUID: 64975528dac1cfc40afb5065459459ee
-    m_Address: UIActivityIndicator
+    m_Address: UILoadingActivity
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 3518641923282089687, guid: 64975528dac1cfc40afb5065459459ee,
+      type: 3}
+    m_TargetAsset: {fileID: 3518641923282089687, guid: 64975528dac1cfc40afb5065459459ee,
+      type: 3}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 137b207d05dd6fc44b3c1407b93caa37, type: 2}
   m_SchemaSet:
