@@ -38,7 +38,7 @@ namespace UnuGames.Examples.UI
                 return;
 
             loading.SetTip("Fectching data from server... please wait!");
-            loading.Show(FakeLoadRanking());
+            loading.Show(FakeLoadRanking(), autoHide: true);
         }
 
         private IEnumerator FakeLoadRanking()
