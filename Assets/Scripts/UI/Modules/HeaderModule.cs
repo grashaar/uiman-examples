@@ -11,7 +11,7 @@
 
         public void OnClickHome()
         {
-            UIMan.Instance.BackScreen();
+            UIMan.Instance.BackScreen(true);
         }
     }
 }

@@ -12,16 +12,25 @@ namespace UnuGames.Examples.UI
         private float circleTimer;
         private float circleMultiplier = 1;
 
-        public override void OnShow(params object[] args)
+        public override void OnShowComplete()
         {
-            base.OnShow(args);
-            StartCoroutine(SimulateSlider());
+            base.OnShowComplete();
+            StartGameplay();
         }
 
         public override void OnHide()
         {
             base.OnHide();
             StopCoroutine(SimulateSlider());
+        }
+
+        private void StartGameplay()
+        {
+            this.Progress = 0;
+            this.CircleProgress = 0;
+
+            StartCoroutine(SimulateSlider());
+            this.timer = 0;
         }
 
         private IEnumerator SimulateSlider()
@@ -72,12 +81,31 @@ namespace UnuGames.Examples.UI
         public void Replay()
         {
             StopCoroutine(SimulateSlider());
+            StartGameplay();
+        }
 
-            this.Progress = 0;
-            this.CircleProgress = 0;
+        public override IEnumerator AnimationShow()
+        {
+            var position = new Vector2(Screen.width, 0);
+            this.RectTransform.anchoredPosition = position;
 
-            StartCoroutine(SimulateSlider());
-            this.timer = 0;
+            var tweener = UITweener.Move(this.gameObject, this.animShowTime, Vector2.zero);
+
+            while (tweener.isRunning)
+            {
+                yield return null;
+            }
+        }
+
+        public override IEnumerator AnimationHide()
+        {
+            var position = new Vector2(Screen.width, 0);
+            var tweener = UITweener.Move(this.gameObject, this.animHideTime, position);
+
+            while (tweener.isRunning)
+            {
+                yield return null;
+            }
         }
     }
 }
